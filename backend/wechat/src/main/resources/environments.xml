@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<instances>
+		<cn1>
+			<staging base-url="https://loyalty-cn-stage.merklechina.com/"
+				account-uuid="fgDkfrTura"
+				account-secret="IfogMX1aTpIsDAeeedQLk3DoSiLRyfTM" />
+			<production base-url="https://loyalty-cn.merklechina.com/"
+				account-uuid="sj1dtPnHvK"
+				account-secret="H79cOHezRdTm1PnAe1Qnzf6rRm88a2lp" />
+			<demo base-url="https://loyalty-cn-stage.merklechina.com/"
+				account-uuid="2848a4eac07b95"
+				account-secret="4e4e206ad00ce603eec2cfd8d9e9f1bc" />
+		</cn1>
+		<cn2>
+			<staging1 base-url="https://lp-cn2-staging.merklechina.com/"
+				account-uuid="[CHANGE ME]" account-secret="[CHANGE ME]" />
+		</cn2>
+	</instances>
+	<target-environment instance="cn1" environment="demo" />
+</configuration>
